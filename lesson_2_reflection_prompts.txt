@@ -12,3 +12,7 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 	use git diff to compare working directory with the staging area.
 	use git diff --staged to compare staged area to the lastest commit in the repository.
+	
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When experimenting to add a new feature but still wanting to fix bugs in the main version without the feature being implemented.
