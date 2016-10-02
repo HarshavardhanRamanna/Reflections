@@ -16,3 +16,9 @@ How can you use the staging area to make sure you have one commit per logical ch
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 	When experimenting to add a new feature but still wanting to fix bugs in the main version without the feature being implemented.
+	
+How do the diagrams help you visualize the branch structure?
+	
+	When we branch, we create a separate path to the existing master branch. The commits made on this branch is not reachable by other branches.
+	This is because the commits are stored as a tree-structure, with the previous commit being the parent.
+	To create a new branch and to checkout, we can use the command, git checkout -b new_branch_name
