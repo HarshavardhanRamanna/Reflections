@@ -22,3 +22,8 @@ How do the diagrams help you visualize the branch structure?
 	When we branch, we create a separate path to the existing master branch. The commits made on this branch is not reachable by other branches.
 	This is because the commits are stored as a tree-structure, with the previous commit being the parent.
 	To create a new branch and to checkout, we can use the command, git checkout -b new_branch_name
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	git merges the lines in a way by comparing both the branches prior to their branching. If a line was present in the original but not in either of 
+	the braches, it removes it. It adds any line added by either branch which was not present before branching.
