@@ -27,3 +27,10 @@ What is the result of merging two branches together? Why do we represent it in t
 
 	git merges the lines in a way by comparing both the branches prior to their branching. If a line was present in the original but not in either of 
 	the braches, it removes it. It adds any line added by either branch which was not present before branching.
+	
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Pro: Super easy to merge when its simple and no conflict, i.e, when two branches haven't modified the same piece of code.
+	Con: Can not distinguish between which is the better commit. So both have to be checked manually before resolving the conflict.
+	
+	Manually all the time is hard and cumbersome.
